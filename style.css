@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/d8/ae/3f/d8ae3f2cf8ed7a17ea67229187130df1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #000; 
+}
+
+header {
+    background: rgba(255, 204, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff; 
+}
+
+#search {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pokemon {
+    background: rgba(255, 255, 255, 0.95); 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.pokemon h2 {
+    color: #333; 
+}
+
+.pokemon:hover {
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+#pokemon-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pokemon-details img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+#pokemon-details p {
+    font-size: 1.1em; 
+    color: #000;
+}
+.con, h2, p {
+    text-transform: capitalize; 
+}
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1, h2 {
+    font-family: 'Press Start 2P', cursive; 
+}
+.foot {
+    text-align: center; 
+    color: #ccc;
+}
+button {
+    border-radius: 50px;
+    border-style: solid;
+    padding: 10px;
+    font-size: 15px;
+}
