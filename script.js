@@ -1,6 +1,6 @@
 const pokemonList = document.getElementById('pokemon-list');
 const detailsDiv = document.getElementById('pokemon-details');
-
+// Sistema de raridade perfeito hein
 function getRarity(index) {
     if (index < 50) return 'comum';
     if (index < 100) return 'raro';
